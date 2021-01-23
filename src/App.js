@@ -60,6 +60,7 @@ const App = () => {
 
   const onFinish = async (values) => {
     console.log(values);
+    handelSubmit();
   };
 
   return (
@@ -103,7 +104,10 @@ const App = () => {
             </p>
             <Form.Item style={{ marginTop: "20px" }}>
               <p>Title</p>
-              <Input onChange={(e) => setTitle(e.target.value)} />
+              <Input
+                required={true}
+                onChange={(e) => setTitle(e.target.value)}
+              />
             </Form.Item>
 
             <Form.Item>
@@ -116,6 +120,7 @@ const App = () => {
                 onChange={(e) => {
                   imagePicker(e);
                 }}
+                required={true}
               />
             </Form.Item>
 
@@ -124,7 +129,7 @@ const App = () => {
                 className="mt-1"
                 type="primary"
                 htmlType="submit"
-                onClick={handelSubmit}
+                // onClick={handelSubmit}
                 disabled={isSubmitted}
               >
                 {isSubmitted ? "Uploading..." : "Submit"}
