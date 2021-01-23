@@ -1,13 +1,13 @@
-project link: https://image-uploader-react.netlify.app/
+# project link: https://image-uploader-react.netlify.app/
 
-Run this project on your local machine:
+# Run this project on your local machine:
 
-> > clone the repository
+## clone the repository
 
-# open the cloned project in code editor and run:
+## open the cloned project in code editor and run:
 
-> > npm install
-> > npm start
+## npm install
+## npm start
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
