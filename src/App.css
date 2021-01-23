@@ -1,0 +1,62 @@
+.list-cont {
+  flex: 1;
+  padding: 40px 100px;
+  background-color: white;
+}
+
+.form-cont {
+  flex: 1;
+  padding: 40px 100px;
+  justify-content: center;
+}
+
+.progress {
+  width: 800px;
+  margin-bottom: 35px;
+}
+
+.header-menu {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.spin {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+  .layout,
+  .header,
+  .form-cont {
+    width: 100% !important;
+  }
+
+  .form-cont {
+    flex: 1;
+    padding: 30px 30px;
+    justify-content: center;
+  }
+
+  .list-cont {
+    flex: 1;
+    padding: 30px 30px;
+    background-color: white;
+  }
+
+  .progress {
+    width: 395px;
+  }
+
+  .list-c {
+    width: 380px !important;
+  }
+
+  .header-menu {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -20px;
+  }
+}
